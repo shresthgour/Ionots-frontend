@@ -21,7 +21,7 @@ const PrivateRoute = ({ children }) => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/">
       <AuthProvider>
         <ToastProvider>
           <Routes>
